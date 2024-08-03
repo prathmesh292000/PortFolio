@@ -1,0 +1,921 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #0b0a0a;
+    color: white;
+}
+
+
+.header2 {
+    background-color: #e0e0e0;
+    color: #110202;
+    text-align: center;
+    padding: px;
+    position: fixed;
+  
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #0a0909;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Projects */
+
+
+
+
+
+.project-item {
+    flex: 1 1 calc(33.333% - 20px); /* Three items per row */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+
+
+/* Contact Us */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#contact {
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-bottom: 3rem;
+
+}
+
+.main-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    /* background: #000; */
+    margin-left: 5rem;
+    margin-bottom: 3rem;
+}
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form1 input[type="text"],
+.form1 input[type="email"],
+.form1 input[type="range"],
+.form1 input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form1 input[type="radio"] {
+    margin-right: 5px;
+}
+
+.form1 label {
+    margin-left: 5px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.Massege {
+    max-width: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* margin-right: 5rem; */
+    text-align: center;
+    /* margin-top: 5rem; */
+}
+
+
+
+.Massege p {
+    font-size: 1em;
+    color: #555;
+}
+
+.Massege a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.Massege button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Massege button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .main-div {
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .form1, .Massege {
+        width: 100%;
+        max-width: none;
+    }
+
+    .form1 input[type="submit"] {
+        width: auto;
+        padding: 10px 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .form1 input[type="text"],
+    .form1 input[type="email"],
+    .form1 input[type="range"],
+    .form1 input[type="submit"] {
+        font-size: 0.9em;
+        padding: 8px;
+        text-align: left;
+    }
+
+    .form1 label {
+        font-size: 0.8em;
+        margin-left: 0;
+    }
+    .Massege{
+        margin-top: none;
+    }
+    .form1 input[type="submit"] {
+        width: auto;
+        padding: 10px 20px;
+        text-align: center;
+    }
+}
+
+
+
+/* Home page */
+
+.hero  {
+    background: #e0e0e0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: right; /* Consider changing this to 'flex-end' for proper alignment */
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Box shadow added */
+
+}
+
+.p1{
+    text-align: center;
+    color: #000;
+    /* background-color: red; */
+}
+
+.h2{
+    text-align: right;
+}
+
+.hero .content {
+    max-width: 800px;
+    /* margin-left: 400px; */
+}
+
+.main-image {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: right;
+}
+
+ p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #000;    
+}
+
+.p1{
+    text-align: right;
+}
+
+
+#exploreBtn {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e64a19;
+}
+
+.more-info {
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+}
+
+/* IMGH1 in the Skills */
+
+.IMG1{
+    padding: 10px;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+.IMG1:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Home Image add */
+
+.hero {
+    background-image: url('https://images.pexels.com/photos/1679719/pexels-photo-1679719.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover; /* Ensures the image covers the container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.7);
+    text-align: center;
+ }
+
+.content h1{
+    color: #fff;
+}
+.content p{
+    color: #fff;
+}
+.content h2{
+    color: #fff;
+}
+/* 
+Footer
+*/
+.Email{
+    color: #0d0c0c;
+}
+
+/* Home Page Res... */
+
+@media (min-width : 780px) {
+    .hero{
+        height: 500px;
+    }
+    
+}
+
+@media (max-width : 780px) {
+    .hero{
+        height: 500px;
+    }
+    
+}
+@media (max-width: 480px) {
+    .hero {
+        height: auto;
+        padding: 10px;
+        background-image: url('https://images.pexels.com/photos/604684/pexels-photo-604684.jpeg?auto=compress&cs=tinysrgb&w=600'); /* New image URL for small devices */
+        background-size: cover; /* Ensure the image covers the container */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Prevent the image from repeating */
+    }
+
+
+    .hero .content {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .main-image {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        text-align: end;
+    }
+
+    .h11{
+        visibility:hidden;
+    }
+
+    p {
+        font-size: 1rem;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .p1 {
+        text-align: center;
+    }
+
+    #exploreBtn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+        width: 100%; /* Full-width button on small screens */
+    }
+
+    .more-info {
+        padding: 20px;
+    }
+}
+
+/* For the About Page */
+
+/* General styling */
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+
+
+
+/* Footer */
+
+footer {
+    background-color: #0d0d0d;
+    text-align: center;
+    /* padding: 1rem 0; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.copy{
+    color: #fff;
+}
+
+
+
+/* Skills */
+
+.skills {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.skills h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 30px;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.IMG1 {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.IMG1:hover {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .flex1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .IMG1 {
+        margin-bottom: 10px;
+    }
+}
+
+
+/* About Section */
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f5f5f5;
+    transition: all 0.5s ease;
+    opacity: 0; /* Start hidden */
+    transform: translateY(20px); /* Start slightly below its final position */
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    object-fit: cover;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bio h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.bio p {
+    font-size: 1.1em;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+    transition: color 0.3s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.bio:hover h2, .bio:hover p {
+    color: #d8491e;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .profile {
+        flex-direction: column;
+    }
+
+    .profile-img {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* Header Part Of The Web Page */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header2 {
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 15px 10px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #007bff;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 1em;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    /* .nav-links {
+        flex-direction: column;
+        align-items: center;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        display: none;
+        transition: max-height 0.3s ease-in-out;
+        max-height: 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+        max-height: 500px; 
+    } */
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    /* .menu-icon {
+        display: inline-block;
+    } */
+}
+
+
+.profile {
+    background-image: url('https://images.pexels.com/photos/633409/pexels-photo-633409.jpeg?auto=compress&cs=tinysrgb&w=600'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image within the section */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    padding: 20px; /* Adds padding around the content */
+    color: #fff; /* Text color to ensure readability on the background image */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    text-align: center; /* Center text alignment */
+    height: 100vh; /* Full viewport height, adjust as needed */
+}
+
+.profile-img {
+    max-width: 150px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the image circular */
+    margin-bottom: 20px; /* Adds space between the image and text */
+}
+
+.bio {
+    max-width: 600px; /* Adjust as needed */
+}
+
+@media (max-width: 768px) {
+    .profile {
+        padding: 10px;
+        min-height: 100%; /* Adjust height for smaller screens */
+        height: 400px;
+    }
+
+    .profile-img {
+        width: 300px; /* Adjust size for smaller screens */
+    }
+
+    .bio {
+        padding: 15px;
+        max-width: 100%; /* Ensure the bio section takes up full width */
+    }
+}
+@media (min-width: 768px) {
+    .profile {
+        padding: 10px;
+        min-height: 100%; /* Adjust height for smaller screens */
+        height: 400px;
+    }
+}
+@media (max-width: 480px) {
+    .profile-img {
+        width: 200px; /* Further adjust size for very small screens */
+    }
+
+    .bio {
+        padding: 10px;
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
+
+
+/* General styling for the projects section */
+#projects {
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#projects h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Styling for the project list */
+
+
+/* Individual project item styling */
+
+.project-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: calc(50% - 40px); /* Responsive width */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projects_header{
+    color: #fff;
+}
+
+.project-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-item h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.project-item p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    
+    .project-item {
+        display: block; 
+        width: calc(100% - 20px); 
+        margin: 10px 0; 
+        padding: 10px; 
+    }
+
+}
+
+@media (max-width: 480px) {
+    #projects h2 {
+        font-size: 1.5rem;
+    }
+
+    .project-item {
+        padding: 10px;
+        width: calc(100% - 20px); /* Full width with reduced padding */
+    }
+
+    .project-item h3 {
+        font-size: 1.25rem;
+    }
+
+    .project-item p {
+        font-size: 0.875rem;
+    }
+
+    .project-item {
+        display: block; /* Stack items vertically */
+        width: calc(100% - 20px); /* Full width with reduced padding */
+        margin: 10px 0; /* Space between items */
+        padding: 10px; /* Adjust padding */
+    }
+
+}
+
+
+/* Project */
+
+/* General styling for the projects section */
+#projects {
+    padding: 20px;
+    background-color: #f4f4f4;
+    /* color: #333; */
+    background-image: url('https://images.pexels.com/photos/3568520/pexels-photo-3568520.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the background image fixed */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+/* Responsive styling for the background image */
+@media (max-width: 768px) {
+    #projects {
+        background-attachment: scroll; /* Allows the image to scroll with the content on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    #projects {
+        background-attachment: scroll; /* Ensures the background image is fully visible on very small screens */
+    }
+}
+
+/* Contact */
+
+#contact {
+    background-image: url('https://images.pexels.com/photos/2694434/pexels-photo-2694434.jpeg?auto=compress&cs=tinysrgb&w=600'); /* Update this path to your image */
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 20px;
+    color: #fff; /* Adjust text color for contrast against background */
+}
+
+/*  */
+
+#projects {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project-item {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    width: calc(50% - 20px); /* Two items per row */
+    min-height: 200px;
+    position: relative;
+    width: 100%;
+}
+
+.project-item h3 {
+    margin-top: 0;
+}
+
+.project-item p {
+    /* background: rgba(0, 0, 0, 0.6); */
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* Specific backgrounds for each project */
+#project-ecommerce {
+    background-image: url('https://images.pexels.com/photos/90764/man-studio-portrait-light-90764.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+}
+
+#project-calculator {
+    background-image: url('https://images.pexels.com/photos/257699/pexels-photo-257699.jpeg?auto=compress&cs=tinysrgb&w=600');
+}
+
+#project-bg-color-changer {
+    background-image: url('https://images.pexels.com/photos/5598296/pexels-photo-5598296.jpeg?auto=compress&cs=tinysrgb&w=600');
+}
+
+#project-other {
+    background-image: url('https://images.pexels.com/photos/1595244/pexels-photo-1595244.jpeg?auto=compress&cs=tinysrgb&w=600');
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .project-item {
+        width: 100%; /* Single item per row on smaller screens */
+        margin: 10px 0;
+    }
+
+    .project-list{
+        display: inline-block;
+    }
+}
+
+
+/* Contact */
+
+.form1 {
+    background-image: url('https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&w=600'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 8px;
+    /* color: ; */
+}
+
+
+/* Animation Code For Skills */
+
+
+.scene {
+    width: 200px;
+    height: 200px;
+    perspective: 1000px;
+}
+
+.cube {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateX(-30deg) rotateY(-45deg);
+    animation: rotateCube 5s infinite linear;
+}
+
+.face {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #333;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+
+@keyframes rotateCube {
+    from {
+        transform: rotateX(-30deg) rotateY(-45deg);
+    }
+    to {
+        transform: rotateX(-30deg) rotateY(315deg);
+    }
+}
+
